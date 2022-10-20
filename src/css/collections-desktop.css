@@ -62,13 +62,17 @@
     .row-collections{
         display: grid;
         grid-template-columns: repeat(3, 300px);
-        grid-column-gap: 230px;
+        grid-column-gap: 8%;
         margin-top: 40px;
     }
 
     .item > img{
         width: 300px;
         height: 230px;
+    }
+
+    .items{
+        margin-bottom: 80px;
     }
 
     /*HOVERING MENU STYLING*/
