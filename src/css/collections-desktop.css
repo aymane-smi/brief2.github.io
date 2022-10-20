@@ -11,14 +11,13 @@
 
     .filters{
         display: flex;
-        position: static;
-        justify-content: space-between;
-        
+        justify-content: center;
+        gap: 70px;
         margin-top: 50px;
     }
 
     .input{
-        width: 300px;
+        width: 25%;
         height: 30px;
         background: var(--white);
         border: 2px solid var(--orange);
@@ -51,7 +50,7 @@
         color: var(--orange);
         width: 14px;
         height: 8px;
-        left: 270px;
+        left: 85%;
         bottom: 15px;
     }
     
@@ -61,13 +60,13 @@
 
     .row-collections{
         display: grid;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 8%;
         margin-top: 40px;
     }
 
     .item > img{
-        width: 300px;
+        width: 90%;
         height: 230px;
     }
 
@@ -80,8 +79,8 @@
     .hovering-info{
         position: absolute;
         top: 0;
-        left: 0%;
-        width: 300px;
+        left: 5%;
+        width: 90%;
         height: 230px;
         background-color: rgba(0,0,0, 0.4);
         opacity: 0;

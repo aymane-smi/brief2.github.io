@@ -15,7 +15,9 @@
         margin: 0;
         font-family: 'Raleway';
     }
-
+    .xmark{
+        display: none;
+    }
     body{
         background: var(--gray);
         width: 100vw;
