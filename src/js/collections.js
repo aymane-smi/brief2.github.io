@@ -6,12 +6,12 @@ let keyCategory = true;
 
 category_btn.addEventListener("click", async ()=>{
     if(keyCategory){
-        document.querySelector(".category").style.bottom = "55px";
+        document.querySelector(".category").style.bottom = "50%";
         await category.classList.add("input-larger");
         category_list.classList.add("category-effect");
         keyCategory = !keyCategory;
     }else{
-        document.querySelector(".category").style.bottom = "15px";
+        document.querySelector(".category").style.bottom = "1%";
         await category.classList.remove("input-larger");
         category_list.classList.remove("category-effect");
         keyCategory = !keyCategory;
@@ -27,12 +27,12 @@ let keyPrice = true;
 
 price_btn.addEventListener("click", async ()=>{
     if(keyPrice){
-        document.querySelector(".price").style.bottom = "55px";
+        document.querySelector(".price").style.bottom = "50%";
         await price.classList.add("input-larger");
         price_list.classList.add("price-effect");
         keyPrice = !keyPrice;
     }else{
-        document.querySelector(".price").style.bottom = "15px";
+        document.querySelector(".price").style.bottom = "1%";
         await price.classList.remove("input-larger");
         price_list.classList.remove("price-effect");
         keyPrice = !keyPrice;

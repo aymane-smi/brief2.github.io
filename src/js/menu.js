@@ -3,7 +3,7 @@ const close = document.querySelector(".xmark");
 const menu = document.querySelector(".nav-menu");
 
 close.addEventListener("click", ()=>{
-    menu.style.top = "-120%";
+    menu.style.top = "-300%";
 });
 
 open.addEventListener("click", ()=>{

@@ -1,0 +1,50 @@
+@media screen and (max-width: 800px){
+    /*FORM STYLING*/
+    h1{
+        color: var(--white);
+        margin: 50px 0;
+        font-size: 14px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 60px;
+    }
+    form{
+        width: 100%;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstname, .lastname, .email, .message{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        color: var(--white);
+        font-weight: bold;
+        font-size: 12;
+        margin-top: 30px;
+    }
+    #firstname, #lastname, #email, #message{
+        border: 2px solid var(--orange);
+        padding: 10px;
+        font-size: 20px;
+        height: 30px;
+    }
+
+    #firstname:focus, #lastname:focus, #email, #message{
+        outline: none;
+    }
+
+    .email, .message{
+        width: 100%;
+    }
+
+    #message{
+        height: 120px;
+    }
+}
